@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
+import { Link } from 'react-router-dom'
 
 const Nav = styled.nav`
   width: 100%;
@@ -18,9 +19,10 @@ const Nav = styled.nav`
 const SubNavbar = () => {
   return (
     <Nav>
-      <a href="/" class="brand w-nav-brand w--current">
+      <Link to='/' class="brand w-nav-brand w--current">
         <div class="logo">Tapiwa.</div>
-      </a>
+      </Link>
+
       <Burger />
     </Nav>
   )

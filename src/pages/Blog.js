@@ -15,7 +15,7 @@ export default class Blog extends Component {
                         <div class="container">
                             <div class="headline-wrap">
                                 <div class="highlight-box">
-                                    <div class="highlight d9"></div>
+                                    <div class="highlight"></div>
                                     <h1 class="hero-heading">Blog</h1>
                                 </div>
                             </div>

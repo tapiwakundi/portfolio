@@ -1,10 +1,10 @@
 import React from 'react'
-import mockup from './images/team.jpg'
-import dots from './images/dots.png'
+import mockup from './images/team2.png'
 import arrow from './images/arrow.svg'
-import intuition from './images/intuition.png'
+import intuition from './images/int2.png'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 
 export default function Home() {
@@ -63,15 +63,18 @@ export default function Home() {
                                             <p class="portfolio-paragraph">I work at inTuition as the head developer, where I design the UI/UX of the application to create a highly attractive and user-friendly website. I integrated a robust authentication process using Bcrypt JS and Passport JS and ensured the application was operative through rigorous testing. I also leverage React/Redux, Node/Express and Mongo DB to create a full-stack application that functions at an optimal level.</p>
                                             <div class="button-wrapper">
                                                 <div class="button-border">
-                                                    <a href="/intuition" class="button w-button ab">see this project</a>
+                                                    <Link to='/intuition' class="button w-button ab">
+                                                    see this project
+                                                    </Link>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <a href="/intuition" class="mockup-column">
 
-                                        <img alt="A mockup of a project" src={intuition} class="mockup-img" />
-                                        <img src={dots} alt="" class="dots" />
+                                        <img alt="A mockup of a project" src={intuition} class="mockup-img"/>
+                                       
                                         <div class="mockup-hover">
                                             <div class="mockup-hover-text">See this project</div>
                                             <div class="mockup-arrow-wrapper">
@@ -101,7 +104,7 @@ export default function Home() {
                                     <a href="/chatapp" class="mockup-column w-inline-block">
 
                                         <img alt="A mockup of a project" src={mockup} class="mockup-img" />
-                                        <img src={dots} alt="" class="dots" />
+                                      
                                         <div class="mockup-hover">
                                             <div class="mockup-hover-text">See this project</div>
                                             <div class="mockup-arrow-wrapper">
@@ -122,7 +125,7 @@ export default function Home() {
                         <div class="left-column ">
                             <h1 class="hero-heading">What</h1>
                             <div class="highlight-box">
-                                <div class="highlight dh"></div>
+                                <div class="highlight"></div>
                                 <h1 class="hero-heading">I do</h1>
                             </div>
                         </div>
