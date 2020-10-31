@@ -908,6 +908,7 @@ a {
   
   .mockup-img {
     max-width: 330px;
+    margin-top: 30px;
   }
 
   .mockup-column {
