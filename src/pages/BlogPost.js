@@ -8,8 +8,11 @@ import { title, header1, header2, para1, para2, para3, para4, para5, para6, para
 export default class BlogPost extends Component {
     render() {
         return (
-            <div className='bg'>
+            <div className='entry-hero'>
+
                 <Navbar />
+
+
                 <div class="headline-wrap blog-wrap">
                     <div class="highlight-box blog-info highlight-box-mobile">
                         <div class="highlight d9"></div>
@@ -38,8 +41,6 @@ export default class BlogPost extends Component {
                 <div className="card-section">
 
                 </div>
-
-
                 <Footer />
             </div>
         )

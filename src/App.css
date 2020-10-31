@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 
 
-body {
+
+html, body {
   font-family: Muli, sans-serif;
   color: #000;
   font-size: 14px;
@@ -9,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background-color: #f9efe7;
+ 
 }
 
 h1 {
@@ -228,6 +229,7 @@ a {
   transition: all 200ms ease;
   font-weight: 700;
   text-decoration: none;
+  margin-bottom: 7px;
 }
 
 .yellow-link:hover {
@@ -353,6 +355,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 32px;
+  margin-top: 30px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -437,7 +440,7 @@ a {
 }
 
 .development-heading {
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .footer {
@@ -528,8 +531,7 @@ a {
   position: relative;
   top: -300px;
   margin-bottom: -220px;
-  border-radius: 4px;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+
   width: 100%;
 }
 
@@ -598,6 +600,7 @@ a {
   transition: 0.3s;
   max-width: 400px;
   margin-top: 5%;
+  background-color: #fff;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -626,10 +629,11 @@ a {
   text-transform: none;
 }
 
-.card-brief {
+.card p{
   color: #777;
   margin-top: -10px;
   line-height: 103%;
+  font-weight: 400;
 }
 
 .read-more img{
@@ -657,6 +661,14 @@ a {
   display: flex;
 }
 
+.white {
+  background-color: white;
+  padding: 94px 30vw;
+  overflow-x: hidden;
+  margin: 173px -171px 0;
+
+}
+
 .next-card {
   margin-left: 80px;
 }
@@ -678,10 +690,14 @@ a {
   margin: 150px auto;
 }
 
+.blog-wrap img {
+  object-fit: cover;
+}
+
 .blog-info {
   display: flex;
   flex-direction: column;
-  margin: 10px 160px;
+  margin: 10px 146px;
 }
 
 .blog-text {
@@ -691,11 +707,15 @@ a {
 
 .hero-blog {
   justify-content: center;
+  background-color: #f9efe7;
+  overflow-x: hidden;
 }
 
 .subheader-blog {
   font-size: 22px;
 }
+
+
 
 .bg {
   background-color: #f9efe7;
@@ -711,7 +731,7 @@ a {
   font-weight: 400;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
   .hero-wrap {
     padding-right: 40px;
     padding-left: 40px;
@@ -792,6 +812,23 @@ a {
   .header-wrapper {
     padding-right: 40px;
     padding-left: 40px;
+  }
+
+  .card-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .white {
+    margin: 173px -116px 0;
+  }
+
+  .next-card {
+    margin-left: 0;
+  }
+
+  .hero-blog {
+    overflow-x: hidden;
   }
 }
 
@@ -913,6 +950,7 @@ a {
   .blog-wrap {
     padding: 0px;
     margin: 100px -50px;
+    
   }
 
   .blog-info {
@@ -920,6 +958,9 @@ a {
     margin: 11px 74px;
   }
   
+  .white {
+    margin: 143px -98px 0;
+  }
 
   h1 {
     font-size: 37px;
@@ -956,10 +997,15 @@ a {
   .blog-wrap img {
     max-width: 400px;
     margin-right: -140px;
+   
   }
 
   .headline-wrap {
     max-width: 300px;
+  }
+
+  .color-nav {
+    background-color: #f9efe7;
   }
 
   .navbar {

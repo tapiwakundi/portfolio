@@ -6,10 +6,10 @@ export default function Footer() {
         <div class="container">
             <div class="want-to-work">
                 <div class="left-column">
-                    <h1 class="hero-heading">Want to</h1>
+                    <h1 class="hero-heading">Let's</h1>
                     <div class="highlight-box">
                         <div class="highlight"></div>
-                        <h1 class="hero-heading">work?</h1>
+                        <h1 class="hero-heading">talk</h1>
                     </div>
                 </div>
                 <div class="right-column">

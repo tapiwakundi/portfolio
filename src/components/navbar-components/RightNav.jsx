@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const Ul = styled.a`
   list-style: none;
@@ -29,13 +31,13 @@ const Ul = styled.a`
 `;
 
 const RightNav = ({ open }) => {
-    return (
-        <Ul open={open}>
-            <a href="/#Portfolio" class="nav-link yellow-link w-nav-link">my work</a>
-            <a href="/blog" class="nav-link yellow-link w-nav-link">blog</a>
-            <a href="mailto:tapiwakundi@gmail.com" class="nav-link yellow-link w-nav-link">get in touch</a>
-        </Ul>
-    )
+  return (
+    <Ul open={open}>
+      <Link to="/#Portfolio" class="nav-link yellow-link w-nav-link">my work</Link>
+      <Link to="/blog" class="nav-link yellow-link w-nav-link">blog</Link>
+      <Link to="mailto:tapiwakundi@gmail.com" class="nav-link yellow-link w-nav-link">get in touch</Link>
+    </Ul>
+  )
 }
 
 export default RightNav

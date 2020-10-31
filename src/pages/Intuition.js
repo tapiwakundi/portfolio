@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import screenshot from './images/int-fs.png'
+import screenshot from './images/int-fs.jpg'
 
 export default function Intuition() {
     return (
@@ -13,7 +13,7 @@ export default function Intuition() {
                         <h4>project showcase</h4>
                         <h1>Intuition</h1>
                         <p class="header-paragraph">Intuition is an online global money transfer application for international students who want a faster, and more secure way to transfer money from their home nation to their school. inTuition is commited to developing inovative technologies that make the global financial markets more convinient for end users.</p>
-                        <a href="#" class="live-site-link yellow-link">visit live site →</a>
+                        {/* <a href="#" class="live-site-link yellow-link">visit live site →</a> */}
                     </div>
                 </div>
             </div>

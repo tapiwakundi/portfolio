@@ -4,14 +4,18 @@ import Navbar from '../components/Navbar'
 import cardimg from './images/cardimg.jpeg'
 import next from './images/next.png'
 import violin from './images/violin.jpg'
+import { Link } from 'react-router-dom'
+
 
 export default class Blog extends Component {
     render() {
         return (
             <div>
-                <div class="hero">
+                <div class="hero hero-blog">
                     <Navbar />
-                    <div class="hero-wrap">
+                    <div className="white">
+
+
                         <div class="container">
                             <div class="headline-wrap">
                                 <div class="highlight-box">
@@ -21,7 +25,7 @@ export default class Blog extends Component {
                             </div>
                             <p class="hero-paragraph">With a passion for writing as well, i've published articles on medium but feel free to check them out here</p>
                             <div className="card-section">
-                                <div class="card">
+                                <Link to='/blogpost' class="card">
                                     <img src={cardimg} alt="Avatar" className='blog-card-img' />
                                     <div class="card-container">
                                         <h4 className="card-header">Navigating a Data Driven Landscape</h4>
@@ -34,7 +38,7 @@ export default class Blog extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                                 <div class="card next-card">
                                     <img src={violin} alt="Avatar" className='blog-card-img' />
                                     <div class="card-container">
@@ -43,7 +47,7 @@ export default class Blog extends Component {
                                         <div className="bottom-row-card">
                                             <h4 className="date">Nov 3, 2020</h4>
                                             <div className="read-more">
-                                                <a href="/blogpost"><h4 className="read-more-text">read more</h4></a>
+                                                <h4 className="read-more-text">read more</h4>
                                                 <img src={next} className='next-arrow-card' alt="" />
                                             </div>
                                         </div>
@@ -51,6 +55,8 @@ export default class Blog extends Component {
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
                 <Footer />
