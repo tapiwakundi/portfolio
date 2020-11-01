@@ -35,7 +35,7 @@ const RightNav = ({ open }) => {
     <Ul open={open}>
       <Link to="/#Portfolio" class="nav-link yellow-link w-nav-link">my work</Link>
       <Link to="/blog" class="nav-link yellow-link w-nav-link">blog</Link>
-      <Link to="mailto:tapiwakundi@gmail.com" class="nav-link yellow-link w-nav-link">get in touch</Link>
+      <a href="mailto:tapiwakundi@gmail.com" class="nav-link yellow-link w-nav-link">get in touch</a>
     </Ul>
   )
 }
