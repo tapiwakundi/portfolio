@@ -4,6 +4,8 @@ import teamappthumbnail from '../pages/images/team2.png'
 import intuitionMockup from '../pages/images/int-fs.png'
 import savonaMockup from '../pages/images/savona.png'
 import teamappMockup from '../pages/images/team-fs.jpg'
+import onVacationMockup from '../pages/images/int-fs.png'
+import onVacationThumbnail from '../pages/images/int2.png'
 
 export const Projects = [
     {
@@ -20,11 +22,21 @@ export const Projects = [
         id: "savona",
         name: "Savona website",
         tags: ["Restaurant", "Webflow", "Content-Management-System"],
-        description: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
-        pageDescription: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
+        description: "onVacation is a concept website I designed using ReactJS, NodeJS and Express. It's fully functional and i created it to put all my knowledge of fullstck development to the test. I was able to successfully leverage all the libraries I knew to make a beautiful vacation booking website that anyone can use",
+        pageDescription: "onVacation is a concept website I designed using ReactJS, NodeJS and Express. It's fully functional and i created it to put all my knowledge of fullstck development to the test. I was able to successfully leverage all the libraries I knew to make a beautiful vacation booking website that anyone can use",
         thumbnail: savonaThumbnail,
         mockup: savonaMockup,
         link: '/experience/savona'
+    },
+    {
+        id: "onVacation",
+        name: "onVacation website",
+        tags: ["Vacation", "React", "Booking"],
+        description: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
+        pageDescription: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
+        thumbnail: intuitionThumbnail,
+        mockup: intuitionMockup,
+        link: '/experience/onvacation'
     },
     {
         id: "teamapp",
