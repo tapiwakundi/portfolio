@@ -28,16 +28,16 @@ export const Projects = [
         mockup: savonaMockup,
         link: '/experience/savona'
     },
-    {
-        id: "onVacation",
-        name: "onVacation website",
-        tags: ["Vacation", "React", "Booking"],
-        description: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
-        pageDescription: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
-        thumbnail: intuitionThumbnail,
-        mockup: intuitionMockup,
-        link: '/experience/onvacation'
-    },
+    // {
+    //     id: "onvacation",
+    //     name: "onVacation website",
+    //     tags: ["Vacation", "React", "Booking"],
+    //     description: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
+    //     pageDescription: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
+    //     thumbnail: intuitionThumbnail,
+    //     mockup: intuitionMockup,
+    //     link: '/experience/onvacation'
+    // },
     {
         id: "teamapp",
         name: "Team App website",
