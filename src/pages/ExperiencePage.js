@@ -11,7 +11,8 @@ export default function ExperiencePage({ match }) {
 
 
     const place = Projects.find(expPlace)
-
+    
+    console.log(match);
     return (
         <div>
             <div className="header">

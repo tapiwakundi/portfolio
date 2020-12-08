@@ -1,43 +1,32 @@
-import intuitionThumbnail from '../pages/images/int2.png'
-import savonaThumbnail from '../pages/images/savona-thumbnail.png'
+import intuitionThumbnail from '../pages/images/intuitionThumbnail.png'
+import intuitionMockup from '../pages/images/intuitionMockup.png'
 import teamappthumbnail from '../pages/images/team2.png'
-import intuitionMockup from '../pages/images/int-fs.png'
-import savonaMockup from '../pages/images/savona.png'
 import teamappMockup from '../pages/images/team-fs.jpg'
-import onVacationMockup from '../pages/images/int-fs.png'
-import onVacationThumbnail from '../pages/images/int2.png'
+import dermigenThumbnail from '../pages/images/dermigenThumbnail.png'
+import dermigenMockup from '../pages/images/dermigenMockup.png'
+
 
 export const Projects = [
     {
         id: "intuition",
-        name: "inTuition website",
-        tags: ["Financial Markets", "Express", "Mongo DB"],
+        name: "inTuition App",
+        tags: ["Financial Markets", "Express", "Mongo DB", "JavaScript"],
         description: "Intuition is an online global money transfer application for international students who want a faster, and more secure way to transfer money from their home nation to their school. inTuition is commited to developing inovative technologies that make the global financial markets more convinient for end users.",
-        pageDescription: "Intuition is an online global money transfer application for international students who want a faster, and more secure way to transfer money from their home nation to their school. inTuition is commited to developing inovative technologies that make the global financial markets more convinient for end users.",
+        pageDescription: "After speaking to an old friend who had an idea to develop an online global money transfer application, I was intrigued and could not pass on the opportunity to create a platform like this. I was excited to put my React and Node experience to build a highly scalable server and user-friendly front end experience. We are currently developing the mobile app for ios and android using react-native and a robust server to handle requests both from the web and mobile app. Through an iterative design process, we improved upon code-quality and the UI/UX.",
         thumbnail: intuitionThumbnail,
         mockup: intuitionMockup,
         link: '/experience/intuition'
     },
     {
-        id: "savona",
-        name: "Savona website",
-        tags: ["Restaurant", "Webflow", "Content-Management-System"],
-        description: "onVacation is a concept website I designed using ReactJS, NodeJS and Express. It's fully functional and i created it to put all my knowledge of fullstck development to the test. I was able to successfully leverage all the libraries I knew to make a beautiful vacation booking website that anyone can use",
-        pageDescription: "onVacation is a concept website I designed using ReactJS, NodeJS and Express. It's fully functional and i created it to put all my knowledge of fullstck development to the test. I was able to successfully leverage all the libraries I knew to make a beautiful vacation booking website that anyone can use",
-        thumbnail: savonaThumbnail,
-        mockup: savonaMockup,
-        link: '/experience/savona'
+        id: "dermigen",
+        name: "DermiGen Website",
+        tags: ["Skin Care", "E-Commerce", "Beauty"],
+        description: "DermiGen is an organic skincare company that specializes in burn treatment creams. Unlike its competitors, it offers a cream with all natural ingredients and no side effects.",
+        pageDescription: "After an energizing conversation with the owner of DermiGen, I could feel her passion for wanting to solve people's problems. I could see her vision and wanted to do my absolute best to bring that vision in the form of a beautiful website where her clients can find solutions that solve their problems. I designed the website using Adobe XD and Figma and the result was a clean, modern and focused website that keeps clients visiting ",
+        thumbnail: dermigenThumbnail,
+        mockup: dermigenMockup,
+        link: '/experience/dermigen'
     },
-    // {
-    //     id: "onvacation",
-    //     name: "onVacation website",
-    //     tags: ["Vacation", "React", "Booking"],
-    //     description: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
-    //     pageDescription: "Savona is a local pizza restaurant in Calgary that serves the most delicious pizza, and I am excited to build their first website. I designed a modern website that reenforces Savona's culture, brand and identity. I integrated a robust online ordering process using moduurn to enable customers to order online and add a new avenue of revenue for the company",
-    //     thumbnail: intuitionThumbnail,
-    //     mockup: intuitionMockup,
-    //     link: '/experience/onvacation'
-    // },
     {
         id: "teamapp",
         name: "Team App website",
