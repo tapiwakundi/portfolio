@@ -30,7 +30,7 @@ export default function ExperiencePage({ match }) {
           </div>
         </div>
       </div>
-      <div className="section">
+      {/* <div className="section">
         <div className="screen-container">
           <img
             alt="A screenshot of web page"
@@ -38,7 +38,7 @@ export default function ExperiencePage({ match }) {
             className="screen-image"
           />
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
